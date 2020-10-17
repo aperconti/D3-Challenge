@@ -100,7 +100,7 @@ d3.csv("./assets/data/data.csv").then(Data => {
         .attr("x", 0 - (chartHeight / 2))
         .attr("dy", "1em")
         .attr("class", "axisText")
-        .text("Smokers");
+        .text("Smokes");
 
     chartGroup.append("text")
         .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + chartMargin.top - 2})`)
